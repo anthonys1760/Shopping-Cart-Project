@@ -37,7 +37,7 @@
                 const cartItem = document.createElement('div');
                 cartItem.classList.add('cart-item','d-flex','justify-content-between','text-capitalize','my-3');
 
-                cartItem.innerHTML =`
+                cartItem.innerHTML = `
                   <img src="${item.img}" class="img-fluid rounded-circle" id="item-img" alt="">
                   <div class="item-text">
       
